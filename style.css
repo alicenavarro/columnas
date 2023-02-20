@@ -1,0 +1,7 @@
+body{
+    background-color: blueviolet;
+}
+.columna1{
+    column-count: 3;
+   column-rule: 4px double white;
+}
