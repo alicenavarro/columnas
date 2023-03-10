@@ -1,7 +1,21 @@
-body{
-    background-color: blueviolet;
+body {
+    background-color:antiquewhite;
 }
-.columna1{
+
+h1 {
+    color: red;
+}
+
+.columnas {
     column-count: 3;
-   column-rule: 4px double white;
+    column-gap: 40px;
+    background-color: antiquewhite;
+    padding: 20px;
+    column-rule: 2px solid red;
+  }
+  
+
+.columnas::selection {
+    background-color: yellow;
+    color: blue;
 }
